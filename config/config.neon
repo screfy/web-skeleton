@@ -1,0 +1,9 @@
+application:
+    errorPresenter: Front:Error
+    mapping:
+        *: ['Screfy\Module', '*', '*\*Presenter']
+
+includes:
+    - app/extensions.neon
+    - app/services.neon
+    - app/session.neon
