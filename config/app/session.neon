@@ -1,0 +1,4 @@
+session:
+	name: sid
+	expiration: 14 days
+	debugger: %debugMode%
