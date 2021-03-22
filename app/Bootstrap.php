@@ -5,9 +5,12 @@ declare(strict_types=1);
 namespace Screfy;
 
 use Nette\Configurator;
+use Nette\StaticClass;
 
 class Bootstrap
 {
+    use StaticClass;
+
     public static function boot(): Configurator
     {
         $configurator = new Configurator();
