@@ -7,7 +7,7 @@ namespace Screfy\Router;
 use Nette\Application\Routers\RouteList;
 use Nette\StaticClass;
 
-class RouterFactory
+final class RouterFactory
 {
     use StaticClass;
 
