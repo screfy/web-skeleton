@@ -1,2 +1,8 @@
+search:
+    front:
+        in: %appDir%/Module/Front
+        classes:
+            - *Factory
+
 services:
     router: Screfy\Router\RouterFactory::create
