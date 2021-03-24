@@ -5,4 +5,5 @@ search:
             - *Factory
 
 services:
+    security.passwords: Nette\Security\Passwords(::PASSWORD_ARGON2ID)
     router: Screfy\Router\RouterFactory::create
