@@ -1,6 +1,12 @@
 {
     "name": "screfy/web-skeleton",
     "description": "Simple web skeleton using Nette Framework.",
+    "keywords": [
+        "screfy",
+        "php",
+        "nette",
+        "framework"
+    ],
     "type": "project",
     "license": "MIT",
     "authors": [
